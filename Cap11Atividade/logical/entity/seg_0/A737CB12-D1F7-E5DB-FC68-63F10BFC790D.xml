@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A737CB12-D1F7-E5DB-FC68-63F10BFC790D" name="T_CFH_COMPROMISSO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-19 20:17:19 UTC</createdTime>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_compromisso" id="56B63183-E8BD-13D4-73F1-0CF4E349CE6A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-19 20:17:31 UTC</createdTime>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="113A7E4E-AB93-0185-BC3E-CB9A4E04E56F">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-19 20:18:59 UTC</createdTime>
+<generatorID>D336DAC0-0A2A-554F-4882-DF5AFE9AB587</generatorID>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<referedAttribute>F973D6E9-BE0E-7042-A954-583BB0E92143</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agenda" id="8EF086D4-12C9-3CD8-38AC-D618255C11C5">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-19 20:19:12 UTC</createdTime>
+<generatorID>3A28992F-E211-1F10-6690-ED63C19D80F9</generatorID>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<referedAttribute>858D89F8-94BF-389D-0AEB-ECBA385BE3EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21E7FAC3-6A99-0E7D-3D62-445561F812D8" name="T_CFH_COMPROMISSO PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-19 20:17:49 UTC</createdTime>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56B63183-E8BD-13D4-73F1-0CF4E349CE6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
