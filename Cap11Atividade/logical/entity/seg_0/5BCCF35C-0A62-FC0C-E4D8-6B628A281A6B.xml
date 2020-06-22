@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C778496-9D39-2E1F-EAC9-763C099E0407" name="T_CFH_METAS">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:12:07 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BCCF35C-0A62-FC0C-E4D8-6B628A281A6B" name="TCFH_PROJETO">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:55:44 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_meta" id="A0658A8D-9840-FA95-A25B-9CFCB8D8ECD7">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:12:34 UTC</createdTime>
+<Attribute name="id_projeto" id="C6595AD6-7071-4C45-0364-91E702217A8E">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:55:56 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -28,10 +28,10 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_colaborador" id="F8BFA22C-73D6-C499-874A-5408BB1B7D86">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:18:13 UTC</createdTime>
-<generatorID>1213508F-D4C9-A4ED-F556-799F0BC87D4B</generatorID>
+<Attribute name="id_colaborador" id="2C611E7F-A3A8-FA80-A15D-0F971FCE7C6B">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:56:49 UTC</createdTime>
+<generatorID>571A4891-E0F3-B5B5-6683-B7C859195896</generatorID>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -41,23 +41,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_inicio" id="25B4B82B-D65E-2EA7-5DFE-B198C1A957DD">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:12:56 UTC</createdTime>
-<ownerDesignName>Cap11Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_meta" id="9EEB9A3A-E428-C50C-A40B-C763A6CCB554">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:13:33 UTC</createdTime>
+<Attribute name="ds_projeto" id="27E4FA9A-49D0-4091-3F4B-2F98DDFAD571">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:56:15 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -65,11 +53,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_conclusao" id="552205FB-2BC1-D3A3-9F16-BFF8B3EA5963">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:13:58 UTC</createdTime>
+<Attribute name="dt_inicio_projeto" id="A1497AF9-68EE-4DE5-997B-F865286C9DFF">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:58:14 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -81,17 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FF129866-6D3D-C8B4-B519-C9A93621F11A" name="T_CFH_METAS PK">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:12:52 UTC</createdTime>
+<identifier id="DCF772FB-DC61-C046-0756-0E48CC1E6510" name="TCFH_PROJETO PK">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:56:34 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A0658A8D-9840-FA95-A25B-9CFCB8D8ECD7</attributeRef>
-<attributeRef>F8BFA22C-73D6-C499-874A-5408BB1B7D86</attributeRef>
+<attributeRef>C6595AD6-7071-4C45-0364-91E702217A8E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

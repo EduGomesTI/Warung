@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A737CB12-D1F7-E5DB-FC68-63F10BFC790D" name="T_CFH_COMPROMISSO">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:19 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6014A26-2FEC-A907-E1C3-D60D98C4ED2D" name="T_CFH_FOTO_USUARIO">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:12:58 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_compromisso" id="56B63183-E8BD-13D4-73F1-0CF4E349CE6A">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:31 UTC</createdTime>
+<Attribute name="id_foto" id="2799DD92-C459-40BE-0A58-57F6C1DAA70F">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:13:07 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -28,49 +28,47 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_colaborador" id="113A7E4E-AB93-0185-BC3E-CB9A4E04E56F">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:18:59 UTC</createdTime>
-<generatorID>D336DAC0-0A2A-554F-4882-DF5AFE9AB587</generatorID>
+<Attribute name="id_usuario" id="7660770A-8586-465D-5E6E-876B43B9A029">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:15:18 UTC</createdTime>
+<generatorID>26A36D47-D95B-399B-B59A-C92E73B4B392</generatorID>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F973D6E9-BE0E-7042-A954-583BB0E92143</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_agenda" id="8EF086D4-12C9-3CD8-38AC-D618255C11C5">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:19:12 UTC</createdTime>
-<generatorID>3A28992F-E211-1F10-6690-ED63C19D80F9</generatorID>
-<ownerDesignName>Cap11Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<referedAttribute>858D89F8-94BF-389D-0AEB-ECBA385BE3EF</referedAttribute>
+<referedAttribute>418F66CE-0703-E764-B18C-1B71C57EF26E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="im_foto" id="90A4F70A-1EE7-0FD1-0F08-EC6D959A9260">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:14:33 UTC</createdTime>
+<comment><![CDATA[im = Imagem.]]></comment>
+<commentInRDBMS><![CDATA[im = Imagem.]]></commentInRDBMS>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="21E7FAC3-6A99-0E7D-3D62-445561F812D8" name="T_CFH_COMPROMISSO PK">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:49 UTC</createdTime>
+<identifier id="C8BF6D4D-CEF3-D1A0-0284-E46CDBCD388E" name="T_CFH_FOTO PK">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:13:23 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>56B63183-E8BD-13D4-73F1-0CF4E349CE6A</attributeRef>
+<attributeRef>2799DD92-C459-40BE-0A58-57F6C1DAA70F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

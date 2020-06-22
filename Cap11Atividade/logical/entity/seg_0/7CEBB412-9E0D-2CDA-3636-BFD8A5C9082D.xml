@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A737CB12-D1F7-E5DB-FC68-63F10BFC790D" name="T_CFH_COMPROMISSO">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:19 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CEBB412-9E0D-2CDA-3636-BFD8A5C9082D" name="T_CFH_INTERESSE_USUARIO">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:15:31 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_compromisso" id="56B63183-E8BD-13D4-73F1-0CF4E349CE6A">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:31 UTC</createdTime>
+<Attribute name="id_interesse" id="2D49EE17-1617-7595-2ACC-50DD3606A194">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:15:59 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -28,49 +28,46 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_colaborador" id="113A7E4E-AB93-0185-BC3E-CB9A4E04E56F">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:18:59 UTC</createdTime>
-<generatorID>D336DAC0-0A2A-554F-4882-DF5AFE9AB587</generatorID>
+<Attribute name="id_usuario" id="D29C8C8A-3C24-B0C3-80DA-E960F257A8D2">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:16:52 UTC</createdTime>
+<generatorID>8C19ED1D-7206-5BE4-4705-7690CF30D6B2</generatorID>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F973D6E9-BE0E-7042-A954-583BB0E92143</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_agenda" id="8EF086D4-12C9-3CD8-38AC-D618255C11C5">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:19:12 UTC</createdTime>
-<generatorID>3A28992F-E211-1F10-6690-ED63C19D80F9</generatorID>
-<ownerDesignName>Cap11Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<referedAttribute>858D89F8-94BF-389D-0AEB-ECBA385BE3EF</referedAttribute>
+<referedAttribute>418F66CE-0703-E764-B18C-1B71C57EF26E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_interesse" id="0223FB90-C96B-F3CF-71C7-B75340D9D6D8">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:16:12 UTC</createdTime>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="21E7FAC3-6A99-0E7D-3D62-445561F812D8" name="T_CFH_COMPROMISSO PK">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 20:17:49 UTC</createdTime>
+<identifier id="1FA6086A-11F1-A7A3-02E4-6A69098655C7" name="T_CFH_INTERESSE_USUARIO PK">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 15:16:11 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>56B63183-E8BD-13D4-73F1-0CF4E349CE6A</attributeRef>
+<attributeRef>2D49EE17-1617-7595-2ACC-50DD3606A194</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

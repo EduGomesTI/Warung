@@ -1,7 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F57B3C0C-02C2-DE50-C187-C22EAA735587" name="T_CFH_USUARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F57B3C0C-02C2-DE50-C187-C22EAA735587" name="T_CFH_COLABORADOR">
 <createdBy>Eduardo</createdBy>
 <createdTime>2020-06-19 12:31:38 UTC</createdTime>
+<comment><![CDATA[Os voluntário são aqueles que prestam algum tipo de seviço a ONG. Podem ter acesso ou não ao sistema.]]></comment>
+<commentInRDBMS><![CDATA[Os voluntário são aqueles que prestam algum tipo de seviço a ONG. Podem ter acesso ou não ao sistema.]]></commentInRDBMS>
 <notes><![CDATA[CFH - Coding For Hope.]]></notes>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
 <engineerTo>
@@ -16,7 +18,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="F973D6E9-BE0E-7042-A954-583BB0E92143">
+<Attribute name="id_colaborador" id="F973D6E9-BE0E-7042-A954-583BB0E92143">
 <createdBy>Eduardo</createdBy>
 <createdTime>2020-06-19 13:11:32 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
@@ -29,7 +31,22 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_usuario" id="DAD44E8E-4FE1-413A-BBDB-01E854B3DD62">
+<Attribute name="id_tipo_colaborador" id="1EAC4E5D-723C-16BD-DE06-D4614F8A7FAE">
+<createdBy>User</createdBy>
+<createdTime>2020-06-22 14:22:11 UTC</createdTime>
+<generatorID>B6CE7BA6-5D52-9009-7B4B-01064446C70E</generatorID>
+<ownerDesignName>Cap11Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<referedAttribute>0F80AD55-04B0-63A9-04EC-B0B44DD49313</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_colaborador" id="DAD44E8E-4FE1-413A-BBDB-01E854B3DD62">
 <createdBy>Eduardo</createdBy>
 <createdTime>2020-06-19 13:12:01 UTC</createdTime>
 <ownerDesignName>Cap11Atividade</ownerDesignName>
