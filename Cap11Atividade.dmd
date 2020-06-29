@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Cap11Atividade" id="647F5A7E-2D91-F5C7-E579-94A2526ED56B" version="3.5">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-19 12:30:29 UTC</createdTime>
-<ownerDesignName>Cap11Atividade</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>647F5A7E-2D91-F5C7-E579-94A2526ED56B</designId>
-</OSDM_Design>
