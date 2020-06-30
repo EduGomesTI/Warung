@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB918203-1297-476F-4183-8C4CE0C948DF" containerWithKeyObject="AA64016B-693E-1407-A864-F00C632B0340" localFKIndex="ED981FE8-C699-7C9D-AB0E-1088D3F9B48B" name="T_CFH_DOA_FT_T_CFH_DOA_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>10809237-7BC7-CA0C-882D-43BC9358DD07</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>T_CFH_DOACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59D44E76-15C6-2691-CBDD-4434198B4D5E</referredTableID>
+<keyObject>9B81CA24-7A86-1CB4-3D07-94A209AC226E</keyObject>
+<referredKeyID>9B81CA24-7A86-1CB4-3D07-94A209AC226E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_doacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

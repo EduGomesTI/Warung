@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BCCF35C-0A62-FC0C-E4D8-6B628A281A6B" name="T_CFH_PROJETO">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:55:44 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7BAF421-951F-7728-EDEC-4E6E3E73D165" name="T_CFH_RECEBIMENTO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:48:57 UTC</createdTime>
 <ownerDesignName>Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -15,65 +15,53 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_projeto" id="C6595AD6-7071-4C45-0364-91E702217A8E">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:55:56 UTC</createdTime>
+<Attribute name="id_recebimento" id="FBB78428-24E1-2C78-56D5-941FD1F049EE">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:49:07 UTC</createdTime>
 <ownerDesignName>Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="FF2C765D-0C59-3B8A-02E5-514FDE7898CF">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:51:45 UTC</createdTime>
+<generatorID>DFB29CAC-40C5-AEFE-F6DA-F54060C409BC</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>418F66CE-0703-E764-B18C-1B71C57EF26E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_tipo_projeto" id="BE5CA611-3FA2-2956-CC00-437E0FE4828F">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-30 20:43:50 UTC</createdTime>
-<generatorID>FE5333B0-7A5E-8BFA-97F2-19E06C8CD750</generatorID>
-<ownerDesignName>Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<referedAttribute>0F546FEF-F825-8530-F0D6-91A1BA9A6E67</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_colaborador" id="2C611E7F-A3A8-FA80-A15D-0F971FCE7C6B">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:56:49 UTC</createdTime>
-<generatorID>571A4891-E0F3-B5B5-6683-B7C859195896</generatorID>
+<Attribute name="id_tipo_recebimento" id="A5B46C24-6BAF-72DB-CE15-B04F9B2771FF">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:52:03 UTC</createdTime>
+<generatorID>15DA7883-2C61-53D9-4151-59998D64746D</generatorID>
 <ownerDesignName>Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
-<referedAttribute>F973D6E9-BE0E-7042-A954-583BB0E92143</referedAttribute>
+<referedAttribute>36C2ECC4-16E7-9B8C-FEF4-5B755CFAB300</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_projeto" id="27E4FA9A-49D0-4091-3F4B-2F98DDFAD571">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:56:15 UTC</createdTime>
-<ownerDesignName>Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_inicio_projeto" id="A1497AF9-68EE-4DE5-997B-F865286C9DFF">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:58:14 UTC</createdTime>
+<Attribute name="dt_recebimento" id="45CBA215-93BB-A69A-0E0C-37AE232FF57C">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:50:38 UTC</createdTime>
 <ownerDesignName>Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
@@ -83,18 +71,32 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="vl_recebimento" id="A9917C20-23AC-248D-1F87-FBD1D8BE9CD0">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:50:57 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DCF772FB-DC61-C046-0756-0E48CC1E6510" name="TCFH_PROJETO PK">
-<createdBy>User</createdBy>
-<createdTime>2020-06-22 15:56:34 UTC</createdTime>
+<identifier id="CC85DB15-5BB1-E7F8-2B41-C78B6D8D207C" name="T_CFH_RECEBIMENTO PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 20:49:21 UTC</createdTime>
 <ownerDesignName>Atividade</ownerDesignName>
 <engineerTo>
 <item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C6595AD6-7071-4C45-0364-91E702217A8E</attributeRef>
+<attributeRef>FBB78428-24E1-2C78-56D5-941FD1F049EE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

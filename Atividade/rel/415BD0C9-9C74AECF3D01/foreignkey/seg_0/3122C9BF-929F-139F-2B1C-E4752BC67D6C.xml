@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3122C9BF-929F-139F-2B1C-E4752BC67D6C" containerWithKeyObject="2233DDA5-8DA3-8F68-768B-568C44F95968" localFKIndex="C79B4E7C-73C4-C6D4-2EAB-521665BCBE39" name="T_CFH_USUARIO_T_CFH_RANKING_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>567952BC-7101-EC3D-F610-7F98DDC14036</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>T_CFH_RANKING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28563F21-FAC8-6A90-27DA-F9678B1D46FA</referredTableID>
+<keyObject>CA565CC3-D53B-7F53-9047-4CF3B844B70F</keyObject>
+<referredKeyID>CA565CC3-D53B-7F53-9047-4CF3B844B70F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_ranking</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

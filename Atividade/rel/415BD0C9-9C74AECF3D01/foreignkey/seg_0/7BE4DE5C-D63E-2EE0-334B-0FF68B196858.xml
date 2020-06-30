@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BE4DE5C-D63E-2EE0-334B-0FF68B196858" containerWithKeyObject="22E6078D-A4B8-AE39-AF7E-36BF2BE0074C" localFKIndex="03FEAA8C-0739-B379-15EC-322CBDCB36F4" name="T_CFH_PROJ_T_CFH_COLAB_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>571A4891-E0F3-B5B5-6683-B7C859195896</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>T_CFH_COLABORADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8EF75564-10A2-879D-3677-3AA92255CF47</referredTableID>
+<keyObject>8D4598B4-D79F-2F2C-42D8-3AB9989B97A8</keyObject>
+<referredKeyID>8D4598B4-D79F-2F2C-42D8-3AB9989B97A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_colaborador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

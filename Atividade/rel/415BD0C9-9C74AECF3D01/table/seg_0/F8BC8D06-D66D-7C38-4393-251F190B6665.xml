@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8BC8D06-D66D-7C38-4393-251F190B6665" name="T_CFH_BAIRRO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>C4102E9A-5CDA-3B98-213A-32C1E8115DBB</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CFH_CIDADE_id_cidade" id="D89BD3BB-AEB5-4DC7-EE45-ED55B4BBE94E">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>2E946C0D-69DD-D58C-9CAF-9867CA783EFD</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAA7CAEB-E5C0-57CE-BF6E-2C399AAA48E7" referredColumn="084FB91B-296D-AE8B-E10F-C1CB36A90AB2"/>
+</associations>
+</Column>
+<Column name="id_bairro" id="AB7139B5-1968-68D0-65CB-4EFA8E1D49E6">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>35A4F557-6912-047F-F5C9-E79B8076C40E</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_bairro" id="0C549F2F-0F30-4922-AAB8-561A50850949">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>FD5628B9-84B0-E18E-3886-6A461220F41D</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85D5AF76-04D5-ED0B-A534-4510291049E8" name="T_CFH_BAIRRO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>A47AB80C-907B-167E-5D10-CD8854F00C72</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7139B5-1968-68D0-65CB-4EFA8E1D49E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CB96D67-18E3-0385-AAE8-452F2FF4C2D4" name="T_CFH_BAIRRO_T_CFH_CIDADE_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>8F5AC4CE-7230-B26E-7358-5F8888F220D6</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89BD3BB-AEB5-4DC7-EE45-ED55B4BBE94E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

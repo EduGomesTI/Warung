@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59D44E76-15C6-2691-CBDD-4434198B4D5E" name="T_CFH_DOACAO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>9DE06799-A488-F55B-E045-824CAEDE276B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doacao" id="27C486DE-A0A1-194E-252B-DAB9E721CD2A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>6506E6AA-D3D0-F68F-89A2-8C981A6DF594</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_USUARIO_id_usuario" id="82B8E1FF-6A50-0FB8-6BA8-18ABEB5DC2D5">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>BB4D9C0D-56A6-E505-9CBB-202DE682E18D</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E260F3FB-F12D-8A14-BCF3-441365218CE4" referredColumn="5750D82B-0FC4-86CF-31CC-E9EB0371F87F"/>
+</associations>
+</Column>
+<Column name="ds_doacaoa" id="2D9C2B26-F98A-496C-69B8-F7D8777CCD7A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>CDC5C8C5-418F-2158-1B39-9315859EEEDC</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_aquisicao" id="A66AD32F-9AAC-7D19-8D77-C950CFDCD6B0">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<comment><![CDATA[Qual o valor para que alguém possa comprar o item doado.]]></comment>
+<commentInRDBMS><![CDATA[Qual o valor para que alguém possa comprar o item doado.]]></commentInRDBMS>
+<generatorID>086982CC-3CC8-F825-A6BC-74D32695D668</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B81CA24-7A86-1CB4-3D07-94A209AC226E" name="T_CFH_DOACAO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>454A5D4B-C5D0-B444-8267-F57679F1CC27</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C486DE-A0A1-194E-252B-DAB9E721CD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6B873F5-F21F-F229-CF62-26BD7E2E1BD6" name="T_CFH_DOACAO_T_CFH_USUARIO_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>B08F2867-D056-9F7E-2BF3-227253D0F072</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82B8E1FF-6A50-0FB8-6BA8-18ABEB5DC2D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

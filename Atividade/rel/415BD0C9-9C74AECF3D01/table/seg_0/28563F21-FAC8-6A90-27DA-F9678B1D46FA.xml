@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28563F21-FAC8-6A90-27DA-F9678B1D46FA" name="T_CFH_RANKING">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>914C96DF-211F-CCCA-531F-EE43F58923F0</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ranking" id="B29B1A9D-DD17-F37E-8361-ED3C768F14BC">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>3945147F-20D1-88D3-F3D9-9E46728A5428</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_TP_RNK_id_tp_rnk" id="55C63025-75B1-9C3C-17BC-1CC79FC87A88">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>1CE1B076-A168-1B2D-9B36-337BC37CDF7F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6709EBB3-C2DD-ACF9-8534-D395CF573FA7" referredColumn="7320FC43-F79D-C247-258C-A22E0FD3014E"/>
+</associations>
+</Column>
+<Column name="nm_pontuacao_atual" id="AE1AE783-B89A-D8ED-88D5-F588C2391F6D">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>D3B312DA-0BCF-DD27-F739-C388074A4DB0</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA565CC3-D53B-7F53-9047-4CF3B844B70F" name="T_CFH_RANKING_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>8FE3A3F5-63C2-F4A0-DA0F-6DBD93A194D2</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B29B1A9D-DD17-F37E-8361-ED3C768F14BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A230171-19B1-BEE3-481A-108B8DBFF6B1" name="T_CFH_RNK_T_CFH_TP_RNK_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>71BEF94D-1544-3966-D4D4-F93D79732B38</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C63025-75B1-9C3C-17BC-1CC79FC87A88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

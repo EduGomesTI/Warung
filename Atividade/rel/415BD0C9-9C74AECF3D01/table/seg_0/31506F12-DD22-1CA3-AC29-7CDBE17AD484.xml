@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31506F12-DD22-1CA3-AC29-7CDBE17AD484" name="T_CFH_COMPROMISSO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>A737CB12-D1F7-E5DB-FC68-63F10BFC790D</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compromisso" id="866B83FB-7ED4-E0F6-07A8-EBC6A47C47A0">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>56B63183-E8BD-13D4-73F1-0CF4E349CE6A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_COLAB_id_colab" id="3430AEE8-45B6-1B42-C846-FF8FE982A6B3">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>113A7E4E-AB93-0185-BC3E-CB9A4E04E56F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BA7EE2B-B788-9601-137D-474B4105FC98" referredColumn="5B3132BB-0D8C-805B-2467-3D630136262D"/>
+</associations>
+</Column>
+<Column name="T_CFH_AGENDA_id_agenda" id="90D865C5-449E-11E3-89C2-60D66CC81981">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>8EF086D4-12C9-3CD8-38AC-D618255C11C5</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5E6CEA-5B53-1869-4F03-4F1BBE62F538" referredColumn="885EA5DD-4C0F-7E27-2997-A4085CBE3AF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC0C956E-DDDD-5667-8FE8-A50286D3B643" name="T_CFH_COMPROMISSO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>21E7FAC3-6A99-0E7D-3D62-445561F812D8</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866B83FB-7ED4-E0F6-07A8-EBC6A47C47A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD0C0C10-8374-9CA0-35DD-42A7281B03DD" name="T_CFH_CMP_T_CFH_CL_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>D336DAC0-0A2A-554F-4882-DF5AFE9AB587</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3430AEE8-45B6-1B42-C846-FF8FE982A6B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D1F2D20-C225-9AAD-A6A3-238258B6F3B1" name="T_CFH_CMP_T_CFH_AGND_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>3A28992F-E211-1F10-6690-ED63C19D80F9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D865C5-449E-11E3-89C2-60D66CC81981"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

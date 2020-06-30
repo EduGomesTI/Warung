@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0702CEF0-F000-F5B1-9CAE-2DB0E6A7E691" name="T_CFH_ENDERECO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>30A53A49-37D5-3CFB-DA06-303B9A266F6A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="D4AE2E28-EEA1-6023-FED3-DC5ADB38A616">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>326964A5-30B4-3229-9D9C-A9FA3BCBF452</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_TIPO_LOGR_id_tipo_logr" id="630E7C79-442C-6AF0-7DA8-9980AD9002C8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>EDAF5201-7871-96FA-8F2F-51E62B3C8EB4</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C374D0A0-F47B-40ED-C46B-D72808DE6786" referredColumn="5703C0B1-5AEA-4949-A923-324BA04299C9"/>
+</associations>
+</Column>
+<Column name="T_CFH_USUARIO_id_usuario" id="25F63338-132A-00B5-BC4A-E9D33AFA2110">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>D6A39A94-44C6-01C0-D0B0-5F4ED00D5817</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21202115-9760-B9E6-6992-1186BA44BFED" referredColumn="5750D82B-0FC4-86CF-31CC-E9EB0371F87F"/>
+</associations>
+</Column>
+<Column name="T_CFH_BAIRRO_id_bairro" id="203F7774-B9F6-F6F3-9247-88385CBC5DA2">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>FBBF2C60-8F4C-5701-EFC9-58C6B1D66F77</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6031F31-E7B3-5452-309E-CA662FE1D750" referredColumn="AB7139B5-1968-68D0-65CB-4EFA8E1D49E6"/>
+</associations>
+</Column>
+<Column name="ds_logradouro" id="B0FA22E7-505F-A95F-CDAD-D4AD15D68126">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>7334D2DF-7F8E-02F7-7F07-78AAB5A2D504</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="06595986-2F4B-EE62-B72A-E995D59D598A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>8AC6B56D-F13A-3A72-62C7-1BFADBDC767F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cep" id="53BB5810-D62D-A65F-BDBB-F9C99DFE1088">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>15A5E244-0626-48FB-E5C4-2BC5AC7333D2</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B6AA125-F879-BAA4-BD19-32B43D5D9F28" name="T_CFH_ENDERECO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>75270CE5-8723-4BFE-5F7F-1CD59AF1B1C9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AE2E28-EEA1-6023-FED3-DC5ADB38A616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80E6A695-EABF-05CD-68F7-803A8CC36446" name="T_CFH_ENDERECO_T_CFH_BAIRRO_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>E6A772E1-27BC-95B8-A634-976CDA74670B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203F7774-B9F6-F6F3-9247-88385CBC5DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC23C10F-E413-A4EB-7518-46726BE0836D" name="T_CFH_END_T_CFH_TIPO_LOGR_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>F9C4D83B-3978-B6A4-A0DE-42BC964E9399</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="630E7C79-442C-6AF0-7DA8-9980AD9002C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A122F2-4175-500C-1539-FC561149932C" name="T_CFH_END_T_CFH_USUARIO_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>589180A6-2B83-BA44-9051-432DCAB8E601</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25F63338-132A-00B5-BC4A-E9D33AFA2110"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

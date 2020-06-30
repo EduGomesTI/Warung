@@ -28,6 +28,22 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_ranking" id="054080C1-D55B-2F62-26EC-6229BA65B1D7">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-29 21:17:35 UTC</createdTime>
+<generatorID>567952BC-7101-EC3D-F610-7F98DDC14036</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3945147F-20D1-88D3-F3D9-9E46728A5428</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nm_usuario" id="48D3171B-2E68-CED3-632E-7DD9CB577C7F">
 <createdBy>User</createdBy>
 <createdTime>2020-06-22 14:07:10 UTC</createdTime>
@@ -91,22 +107,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8</dataTypeSize>
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_ranking" id="054080C1-D55B-2F62-26EC-6229BA65B1D7">
-<createdBy>Eduardo</createdBy>
-<createdTime>2020-06-29 21:17:35 UTC</createdTime>
-<generatorID>567952BC-7101-EC3D-F610-7F98DDC14036</generatorID>
-<ownerDesignName>Atividade</ownerDesignName>
-<engineerTo>
-<item key="415BD0C9-8BE5-DD81-56D9-9C74AECF3D01" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>3945147F-20D1-88D3-F3D9-9E46728A5428</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

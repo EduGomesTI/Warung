@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5262B4E7-CEBB-3E18-A0A8-7CC414DFEB79" name="T_CFH_FOTO_USUARIO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>A6014A26-2FEC-A907-E1C3-D60D98C4ED2D</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_foto" id="22ACD4F1-97CA-02F9-459F-58ABA7CBEA14">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>2799DD92-C459-40BE-0A58-57F6C1DAA70F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_USUARIO_id_usuario" id="39797948-B18B-32FE-8D41-900E2AADFF98">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>7660770A-8586-465D-5E6E-876B43B9A029</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDBE8AAE-4A7F-E4A3-9F54-A5050F77F1E2" referredColumn="5750D82B-0FC4-86CF-31CC-E9EB0371F87F"/>
+</associations>
+</Column>
+<Column name="im_foto" id="FADDE6E6-3271-9299-7528-89EC1F9E2A21">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<comment><![CDATA[im = Imagem.]]></comment>
+<commentInRDBMS><![CDATA[im = Imagem.]]></commentInRDBMS>
+<generatorID>90A4F70A-1EE7-0FD1-0F08-EC6D959A9260</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="088EE5DA-0B6F-D077-29F2-357B2410CF2E" name="T_CFH_FOTO_USUARIO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>C8BF6D4D-CEF3-D1A0-0284-E46CDBCD388E</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22ACD4F1-97CA-02F9-459F-58ABA7CBEA14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3193B1C-B814-0606-4B2C-E39D67F79300" name="T_CFH_FT_USU_T_CFH_USU_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>26A36D47-D95B-399B-B59A-C92E73B4B392</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39797948-B18B-32FE-8D41-900E2AADFF98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

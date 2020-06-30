@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E5E6CEA-5B53-1869-4F03-4F1BBE62F538" containerWithKeyObject="31506F12-DD22-1CA3-AC29-7CDBE17AD484" localFKIndex="6D1F2D20-C225-9AAD-A6A3-238258B6F3B1" name="T_CFH_CMP_T_CFH_AGND_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>3A28992F-E211-1F10-6690-ED63C19D80F9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>T_CFH_AGENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB917FE8-CB03-2098-5ADD-261EAD674A73</referredTableID>
+<keyObject>84AC3F2A-C8E3-7A4C-D351-F38F63E75FE7</keyObject>
+<referredKeyID>84AC3F2A-C8E3-7A4C-D351-F38F63E75FE7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agenda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

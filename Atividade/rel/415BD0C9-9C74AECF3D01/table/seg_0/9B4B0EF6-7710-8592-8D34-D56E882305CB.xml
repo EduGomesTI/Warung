@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B4B0EF6-7710-8592-8D34-D56E882305CB" name="T_CFH_INTERESSE_USUARIO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>7CEBB412-9E0D-2CDA-3636-BFD8A5C9082D</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_interesse" id="948967F2-2BC5-510C-03E3-E21F77F48CCB">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>2D49EE17-1617-7595-2ACC-50DD3606A194</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_USUARIO_id_usuario" id="5C1C3E65-DD85-66E1-65E3-DB7CFA06905A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>D29C8C8A-3C24-B0C3-80DA-E960F257A8D2</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D64A454-B498-E17C-6FF4-C5393B79A809" referredColumn="5750D82B-0FC4-86CF-31CC-E9EB0371F87F"/>
+</associations>
+</Column>
+<Column name="ds_interesse" id="CC0884A8-A9F8-3666-6081-809A75823979">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>0223FB90-C96B-F3CF-71C7-B75340D9D6D8</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E04205E8-7205-68C6-C5BD-F9852AF64A85" name="T_CFH_INTERESSE_USUARIO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>1FA6086A-11F1-A7A3-02E4-6A69098655C7</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948967F2-2BC5-510C-03E3-E21F77F48CCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F1A0C6B-4F9C-B459-66BC-27DC7F66F3D7" name="T_CFH_INT_USU_T_CFH_USU_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>8C19ED1D-7206-5BE4-4705-7690CF30D6B2</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1C3E65-DD85-66E1-65E3-DB7CFA06905A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

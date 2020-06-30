@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA64016B-693E-1407-A864-F00C632B0340" name="T_CFH_DOACAO_FOTO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>58C75557-3D72-12DE-D95B-DDBAB86E34E6</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doacao_foto" id="E8C67AEA-827D-F6AD-EC4C-C2033278B8CB">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>321BDE37-5D9B-927F-FDAE-76D0B3D2A2A8</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CFH_DOACAO_id_doacao" id="3DC380EC-0055-0E35-47EA-4BFE384F8118">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>B966BFC0-FC5D-87B2-D4DA-856918D73467</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB918203-1297-476F-4183-8C4CE0C948DF" referredColumn="27C486DE-A0A1-194E-252B-DAB9E721CD2A"/>
+</associations>
+</Column>
+<Column name="im_foto" id="0433F61D-680F-098F-1F6A-8035A9E382A4">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>59AFB3F7-D81B-D84B-FDB6-A67AFD856DF8</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D0985FE-67A3-3B4D-431D-F592213B5A98" name="T_CFH_DOACAO_FOTO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>7895655A-D7E9-79A8-8E64-06324C26407B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C67AEA-827D-F6AD-EC4C-C2033278B8CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED981FE8-C699-7C9D-AB0E-1088D3F9B48B" name="T_CFH_DOA_FT_T_CFH_DOA_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2020-06-30 21:13:38 UTC</createdTime>
+<generatorID>10809237-7BC7-CA0C-882D-43BC9358DD07</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC380EC-0055-0E35-47EA-4BFE384F8118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
